@@ -1,4 +1,4 @@
-ARG GANTRY_VERSION=v0.1.1
+ARG GANTRY_VERSION=v1.0.0
 
 FROM alpine:latest as helm-installer
 RUN apk update && apk upgrade && \
